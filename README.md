@@ -6,6 +6,7 @@ E tem mais. Ela faz questão de detalhar como está previsto o tempo, com inform
 Dentro da matéria, ela descreve a previsão do tempo sempre do dia seguinte ao da busca, ou seja, se eu rodo o programa hoje (dia 14), ela vai me retornar com a previsão do tempo de amanhã (dia 15), e se rodar amanhã retornará o tempo do outro dia. E assim vai...
 
 O script em Python pode ser visualizado no arquivo Maju_robo_tempo.py
+
 # Arquivo CSV
 Ao iniciar o script percebi, que no site do INPE, cada município brasileiro era representado, na url de busca, por um código. Por exemplo, Maceió é o 233, já São Paulo é o número 244. 
 
@@ -16,3 +17,5 @@ Então, para que eu pudesse fazer uma busca por um determinado município, dentr
 
 Sim, e se você errar o nome ela vai pedir que você digite novamente até que acerte.
  
+# Rodando o programa
+Para rodar o script é necessário ter o Python 3.6 instalando, além das bibliotecas csv, request e  BeautifulSoup.
