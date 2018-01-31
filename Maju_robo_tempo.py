@@ -8,7 +8,7 @@ def cidade_tempo():
 
     import csv
 
-    cidade_desejada = input("Qual município você deseja saber a previção do tempo para amanhã? ")
+    cidade_desejada = input("Qual município você deseja saber a previsão do tempo para amanhã? ")
     cidade_desejada = cidade_desejada.upper()
     
     # abrindo planilha csv com os nomes das cidades e código do site do INPE
